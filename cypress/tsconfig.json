@@ -1,0 +1,25 @@
+{
+  "extends": "../tsconfig.app.json",
+  "compilerOptions": {
+    "composite": true,
+    "types": ["cypress"],
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "allowJs": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "**/*.ts",
+    "../cypress.config.ts"
+  ]
+} 
